@@ -42,7 +42,10 @@ header{
     position: relative;
     overflow: hidden;
 }
-
+header>article>div{
+    overflow: hidden;
+    position: relative;
+}
 article>div{
     width: 70%;
     max-width: 90%;
@@ -142,19 +145,23 @@ footer button:hover{
 }
 
 footer{
-    position: relative;
-    overflow: hidden;
     display: flex;
     height: 50vh;
 
 }
-
-footer div{
-    flex-flow: column wrap;
-    justify-content: space-between;
-}
-
 footer img{
-    height: 50vh;
+    position: absolute;
+    z-index: -1;
     width: 100%;
+    height: 50vh;
 }
+
+footer div div{
+    justify-content: space-around;
+}
+
+aside{
+    color: white;
+    list-style: none;
+}
+
