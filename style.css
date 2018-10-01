@@ -51,7 +51,7 @@ article>div{
 
 header article img{
     width: 100%;
-    height: 25px;
+    height: 50vh;
 }
 header>article>div>p{
     font-size: 1.5em;
@@ -82,6 +82,7 @@ section>div{
     flex-wrap: wrap;
     height: fit-content;
     border-radius: 0.5em;
+
 }
 
 section>div>aside{
@@ -103,9 +104,57 @@ section>div>div>p{
     font-weight: lighter;
     color: black;
     margin: 1em;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: lighter;
 }
-section>div>div>a:hover{
-    background-color: rgba(57, 110, 209, 0.63);
+section>div>div>h3{
+    color: #612e1d;
+    justify-content: center;
+}
+section>div>div>button:hover{
+    background-color: white;
+    color: orange;
+}
+
+section>div>div>button{
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 3rem;
+    width: 13rem;
+    margin-right: 2em;
+    font-size: 0.9em;
+}
+
+footer button{
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 3rem;
+    width: 13rem;
+    margin-right: 2em;
+    font-size: 0.9em;
+}
+
+footer button:hover{
+    background-color: white;
+    color: orange;
+}
+
+footer{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    height: 50vh;
+
+}
+
+footer div{
+    flex-flow: column wrap;
+    justify-content: space-between;
+}
+
+footer img{
+    height: 50vh;
+    width: 100%;
 }
