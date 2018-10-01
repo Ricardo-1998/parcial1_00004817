@@ -161,7 +161,14 @@ footer div div{
 }
 
 aside{
+    display:flex;
     color: white;
+    justify-content: space-around;
+    
+}
+
+aside li{
+    
     list-style: none;
 }
 
